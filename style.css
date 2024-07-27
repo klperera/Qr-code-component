@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 1.5rem;
+}
+.container{
+    background-color: white;
+    width: 50vw;
+    height: auto;
+    margin: 20vh auto;
+    border-radius: 20px;
+    box-shadow: 0 0  10px 20px hsla(213, 60%, 82%, 0.859);
+}
+.qr{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10%;
+    border-radius: 100%;
+}
+h1 , p {
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+    padding: 10%;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media only screen and (min-width: 1000px)  {
+    .container{
+        background-color: white;
+        width: 25vw;
+        height: auto;
+        margin: 10vh auto;
+        border-radius: 20px;
+        box-shadow: 0 0  10px 20px hsla(213, 60%, 82%, 0.859);
+    }
+}
