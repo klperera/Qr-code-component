@@ -38,6 +38,7 @@ h1{
 p{
     font-size: 1.5rem;
     padding: 10%;
+    color: hsl(216, 15%, 48%);
 }
 .attribution { 
     font-size: 11px; 
@@ -46,13 +47,16 @@ p{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-@media only screen and (min-width: 1000px)  {
+@media only screen and (min-width: 768px)  {
     .container{
-        background-color: white;
+        width: 45vw;
+        margin: 10vh auto;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .container{
         width: 25vw;
-        height: auto;
-        margin: 20vh auto;
-        border-radius: 20px;
-        box-shadow: 0 0  10px 20px hsla(213, 60%, 82%, 0.859);
+        margin: 10vh auto;
     }
 }
